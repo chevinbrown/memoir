@@ -1,7 +1,7 @@
 defmodule Speech do
   def text(:hamlet) do
     """
-    To be or not to be, 
+    To be or not to be,
     that is the question.
     """
   end
@@ -20,6 +20,14 @@ defmodule Speech do
     defense, promote the general Welfare, and secure the Blessings of Liberty
     to ourselves and our Posterity, do ordain and establish this Constitution
     for the United States of America.
+    """
+  end
+
+  def text(:virding) do
+    """
+    Any sufficiently complicated concurrent program in another language
+    contains an ad hoc informally-specified bug-ridden
+    slow implementation of half of Erlang.
     """
   end
 end
